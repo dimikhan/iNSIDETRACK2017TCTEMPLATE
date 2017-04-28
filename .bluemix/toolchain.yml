@@ -27,10 +27,10 @@ services:
     parameters:
       repo_name: '{{toolchain.name}}'
       repo_url: 'https://git.ng.bluemix.net/{{toolchain.name}}/{{toolchain.name}}'
-      type: existing
+      type: ex.isting
       has_issues: true
       enable_traceability: true
-  sample-build: 
+  sample-build:
     service_id: pipeline
     parameters:
       services:
