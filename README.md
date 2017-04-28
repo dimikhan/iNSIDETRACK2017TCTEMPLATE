@@ -1,8 +1,8 @@
-# Simple Cloud Foundry toolchain (v2)
+# Clone of Simple Cloud Foundry toolchain (v2)
 
 ### Continuously deliver a Cloud Foundry app with IBM hosted repos and issue tracking
 
-This Hello World application uses Node.js and includes a DevOps toolchain that is preconfigured for continuous delivery, source control, issue tracking, and online editing.
+This toolchain will be used in the iNSIDE Track code competition. The toolchain will use hosted GitLab for repo and issue tracking, , Orion web IDE, and Delivery Pipeline. The toolchain will automatically point the team to their respective repo in hosted GitLab.
 
 ### To get started, click **Create toolchain**.
 
