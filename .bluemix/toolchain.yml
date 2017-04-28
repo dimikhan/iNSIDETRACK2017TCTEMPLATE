@@ -13,11 +13,11 @@ template:
     - sample-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/simple-toolchain-hosted](https://github.com/open-toolchain/simple-toolchain-hosted)
+      [https://github.com/dimikhan/iNSIDETRACK2017TCTEMPLATE](https://github.com/dimikhan/iNSIDETRACK2017TCTEMPLATE)
     git branch: >-
-      [master](https://github.com/open-toolchain/simple-toolchain-hosted/tree/master)
+      [master](https://github.com/dimikhan/iNSIDETRACK2017TCTEMPLATE/tree/master)
 toolchain:
-  name: 'simple-toolchain-{{timestamp}}'
+  name: 'IT2017_{teamid}'
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
@@ -26,8 +26,8 @@ services:
     service_id: hostedgit
     parameters:
       repo_name: '{{toolchain.name}}'
-      repo_url: 'https://github.com/open-toolchain/node-hello-world'
-      type: clone
+      repo_url: 'https://git.ng.bluemix.net/{{toolchain.name}}/{{toolchain.name}}'
+      type: existing
       has_issues: true
       enable_traceability: true
   sample-build:
