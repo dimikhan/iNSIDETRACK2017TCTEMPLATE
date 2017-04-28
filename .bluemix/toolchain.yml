@@ -30,7 +30,7 @@ services:
       type: existing
       has_issues: true
       enable_traceability: true
-  sample-build:
+  sample-build: 
     service_id: pipeline
     parameters:
       services:
