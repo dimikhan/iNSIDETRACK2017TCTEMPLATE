@@ -26,8 +26,8 @@ services:
     service_id: hostedgit
     parameters:
       repo_name: '{{toolchain.name}}'
-      repo_url: 'https://git.ng.bluemix.net/{{toolchain.name}}/{{toolchain.name}}'
-      type: clone
+      repo_url: 'https://git.ng.bluemix.net/abc'
+      type: existing
       has_issues: true
       enable_traceability: true
   sample-build:
