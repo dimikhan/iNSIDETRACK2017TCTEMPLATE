@@ -1,6 +1,6 @@
-# Clone of Simple Cloud Foundry toolchain (v2)
+# iNSIDETRACK2017TCTEMPLATE
 
-### Continuously deliver a Cloud Foundry app with IBM hosted repos and issue tracking
+### Clone of Simple Cloud Foundry toolchain (v2)
 
 This toolchain will be used in the iNSIDE Track code competition. The toolchain will use hosted GitLab for repo and issue tracking, , Orion web IDE, and Delivery Pipeline. The toolchain will automatically point the team to their respective repo in hosted GitLab.
 
