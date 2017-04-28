@@ -6,7 +6,7 @@ This toolchain will be used in the iNSIDE Track code competition. The toolchain 
 
 ### To get started, click **Create toolchain**.
 
-[![Deploy To Bluemix](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/open-toolchain/simple-toolchain-hosted)
+[![Deploy To Bluemix](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/dimikhan/iNSIDETRACK2017TCTEMPLATE)
 
 ---
 ### Learn more
